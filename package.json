@@ -1,0 +1,38 @@
+{
+    "name":"salon",
+    "private":false,
+    "version":"0.0.1",
+    "description":"product selection service",
+    "repository":{
+        "url":"https://github.com/kublikon/salon.git",
+        "type":"git"
+    },
+    "contributors":[
+        "Jakub Szerszen <jszersze@gmail.com>"
+    ],
+    "bugs":{
+        "mail":"jszersze@gmail.com",
+        "url":"http://github.com/kublikon/salon/issues"
+    },
+    "dependencies": {
+        "colors": "*",
+        "express": "*",
+        "connect": "*",
+        "body-parser": "*",
+        "kuba-bootstrap": "git://github.com/kuba-bootstrap/bootstrap.git",
+        "ejs-locals": "*",
+        "mongoose": "*",
+        "node-uuid": "*",
+        "ejs": "*",
+        "connect-assetmanager": "*",
+        "less-middleware": "*",
+        "less": "*",
+        "aws-sdk": "1.4.1"
+    },
+    "devDependencies":{
+    },
+    "main":"index",
+    "engines":{
+        "node":">= 0.5.0 < 0.9.0"
+    }
+}
