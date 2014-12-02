@@ -1,0 +1,8 @@
+
+* { margin:0; padding:0;}
+
+html, body { height:100%; width: 100%; }
+
+.side-menu { width:15%; height:100%; float:left; background-color:#354051;}
+.side-menu-chunk1 { width:15%; height:25%; float:left; border-bottom: 1px; border-color: white; background-color:#354051}
+.top-menu { width:85%; height:80px; float:left; border-bottom: 1px solid #354051; }

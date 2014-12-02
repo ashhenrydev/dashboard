@@ -1,18 +1,16 @@
 {
-    "name":"salon",
+    "name":"dashboard",
     "private":false,
     "version":"0.0.1",
-    "description":"product selection service",
+    "description":"",
     "repository":{
-        "url":"https://github.com/kublikon/salon.git",
+        "url":"https://github.com/ashhenrydev/dashboard.git",
         "type":"git"
     },
     "contributors":[
-        "Jakub Szerszen <jszersze@gmail.com>"
+        "Ashleigh Henry <ash.henry.dev@gmail.com>"
     ],
     "bugs":{
-        "mail":"jszersze@gmail.com",
-        "url":"http://github.com/kublikon/salon/issues"
     },
     "dependencies": {
         "colors": "*",

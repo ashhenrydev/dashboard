@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="dashboard">
+<head>
+    <title><%= title %></title>
+
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    
+    <% for(var i=0; i<css.length; i++) {%>
+   		<link rel="stylesheet" href="<%= css[i] %>" />
+	<% } %>
+   
+</head>
+
+<body ng-controller="menuCtrl">
+
+	<div class="side-menu">
+		<div class="side-menu-top"></div>
+		<div class="side-menu-chunk1"></div>
+		<div class="side-menu-chunk2"></div>
+		<div class="side-menu-bottom"></div>
+	</div>
+	<div class="top-menu"></div>
+	<div class="content"></div>
+
+	<% for(var i=0; i<scripts.length; i++) {%>
+   		<script src="<%= scripts[i] %>"></script>
+	<% } %>
+
+	<% for(var i=0; i<fx.length; i++) {%>
+   		<script src="<%= fx[i] %>"></script>
+	<% } %>
+
+</body>
+</html>
