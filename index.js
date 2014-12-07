@@ -63,7 +63,8 @@
                 'js/libs/jquery-1.9.1.min.js',
                 'js/libs/underscore-min.js',
                 'js/libs/angular.min.js',
-                'js/libs/lawnchair-0.6.1.js',
+                // 'js/libs/angular-route.min.js',
+                // 'js/libs/lawnchair-0.6.1.js',
                 'js/main.js',
                 'js/app.js',
                 'js/config.js',
@@ -77,6 +78,7 @@
                 // 'js/factory/graphs.js',
             
                 // controllers
+                'js/controllers/index.js',
                 // 'js/controllers/menu.js',
                 // 'js/controllers/login.js',
                 // 'js/controllers/press.js',

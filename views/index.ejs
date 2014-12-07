@@ -15,7 +15,7 @@
    
 </head>
 
-<body ng-controller="menuCtrl">
+<body>
 
 	<div class="side-menu">
 		<div class="side-menu-top">
@@ -51,7 +51,9 @@
 		</div>
 	</div>
 	<div class="top-menu"></div>
-	<div class="content"></div>
+	<div class="content">
+		<ng-view></ng-view>
+	</div>
 
 	<% for(var i=0; i<scripts.length; i++) {%>
    		<script src="<%= scripts[i] %>"></script>
