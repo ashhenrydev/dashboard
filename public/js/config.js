@@ -1,15 +1,19 @@
-window.app.config(['$routeProvider, $locationProvider',
-	function($routeProvider, $locationProvider) {
+window.app.config(['$routeProvider', '$locationProvider',
+    function($routeProvider, $locationProvider) {
 
-		$routeProvider
+        // $locationProvider.html5Mode(true);
 
-		.when('/', { controller: 'indexCtrl', templateUrl: 'views/index.html' })
+        $routeProvider
+        
+        .when('/', { controller: 'indexCtrl', templateUrl: 'views/index.html' })
 
-	}
+        .otherwise('/', { controller: 'indexCtrl', templateUrl: 'views/index.html' })
+
+    }
 ]);
 
 window.app.config(['$locationProvider',
-	function($locationProvider) {
-		$locationProvider.hashPrefix('');
-	}
+    function($locationProvider) {
+        $locationProvider.hashPrefix('');
+    }
 ]);
